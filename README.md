@@ -26,7 +26,7 @@ copy the code and follow the instructions
 
 `terraform fmt`
 
-#### Terraform plan will is used to create an execution plan
+#### Terraform plan is used to create an execution plan
 
 `terraform plan`
 
