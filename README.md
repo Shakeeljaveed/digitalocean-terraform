@@ -8,7 +8,7 @@ and enter the token that you have created in the digitalocean account and mentio
 
 ### Get the details of your account via curl 
 
-curl -X GET "https://api.digitalocean.com/v2/account/keys" -H "Authorization: Bearer your token "
+`curl -X GET "https://api.digitalocean.com/v2/account/keys" -H "Authorization: Bearer your token "`
 
 ### Then create a droplets_creation.tf file
 
@@ -16,30 +16,30 @@ copy the code and follow the instructions
 
 #### Terraform init will download the nescessary plugins for the provider
 
-terraform init
+`terraform init`
 
 #### Terraform validate will check the errors
 
-terraform validate
+`terraform validate`
 
 #### Terraform fmt will format the file 
 
-terraform fmt
+`terraform fmt`
 
 #### Terraform plan will is used to create an execution plan
 
-terraform plan
+`terraform plan`
 
 #### Terraform plan -out The path to save the generated execution plan.
 
-terraform plan -out < any userdefined plan-name>
+`terraform plan -out < any userdefined plan-name>`
 
 #### The terraform apply command is used to apply the changes required to reach the desired state
 
-terraform apply < plan name >
+`terraform apply < plan name >`
 
 #### The terraform destroy command is used to destroy the Terraform-managed infrastructure
 
-terraform destroy < plan name >
+`terraform destroy < plan name >`
 
 
