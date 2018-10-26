@@ -10,11 +10,11 @@ and enter the token that you have created in the digitalocean account and mentio
 
 copy the code and follow the instructions
 
-##Terraform init will download the nescessary plugins for the provider
+#Terraform init will download the nescessary plugins for the provider
 
 terraform init
 
-##Terraform validate will check the errors
+#Terraform validate will check the errors
 
 terraform validate
 
@@ -22,19 +22,19 @@ terraform validate
 
 terraform fmt
 
-##Terraform plan will is used to create an execution plan
+#Terraform plan will is used to create an execution plan
 
 terraform plan
 
-##Terraform plan -out The path to save the generated execution plan.
+#Terraform plan -out The path to save the generated execution plan.
 
 terraform plan -out < any userdefined plan-name>
 
-##The terraform apply command is used to apply the changes required to reach the desired state
+#The terraform apply command is used to apply the changes required to reach the desired state
 
 terraform apply < plan name >
 
-##The terraform destroy command is used to destroy the Terraform-managed infrastructure
+#The terraform destroy command is used to destroy the Terraform-managed infrastructure
 
 terraform destroy < plan name >
 
