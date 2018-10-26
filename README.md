@@ -1,4 +1,4 @@
-# INSTALL TERRAFORM USING THE OFFICIAL DOCUMENT
+### INSTALL TERRAFORM USING THE OFFICIAL DOCUMENT
 
 [https://www.terraform.io/intro/getting-started/install.html]
 
