@@ -1,6 +1,6 @@
 ### INSTALL TERRAFORM USING THE OFFICIAL DOCUMENT
 
-[https://www.terraform.io/intro/getting-started/install.html]
+https://www.terraform.io/intro/getting-started/install.html
 
 ### Then create a variable.tf file
 
